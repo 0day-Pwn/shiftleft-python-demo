@@ -9,6 +9,7 @@ on:
   # We recommend triggering a scan when merging to your default branch as a best practice,
   # especially if you'd like to compare the results of two scans (e.g., a feature branch against the
   # default branch)
+  # Ttigger test
     branches:
       - main
       - master
