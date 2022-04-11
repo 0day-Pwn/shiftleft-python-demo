@@ -6,7 +6,7 @@ on:
   workflow_dispatch:
   push:
     branches:
-      - main
+      - main1
       - master
 jobs:
   NextGen-Static-Analysis:
