@@ -11,12 +11,12 @@ pool:
 steps:
 - task: ThreatModelerBuildFailTool@0
   inputs:
-    TMUserID: 'serviceaccount'
-    TMUserPWD: 'admin@123'
+    TMUserID: '*****'
+    TMUserPWD: '*******'
     TMJenkinJobName: '0day-Pwn.shiftleft-python-demo'
     CheckTM: 'true'
     CheckTMHigh: 'false'
-    TMTokenURI: 'https://esteelauder.threatmodeler.net/cweo4nlpbm4wlsu3h5d77iejmd2jodmct6lyantcw5ouep6dac7a'
+    TMTokenURI: '***'
     TMValidateURI: 'https://esteelauder.threatmodeler.net/api/azure/validate'
 - task: PowerShell@2
   displayName: Download ShiftLeft cli
