@@ -13,7 +13,7 @@ steps:
   inputs:
     TMUserID: 'serviceaccount'
     TMUserPWD: 'admin@123'
-    TMJenkinJobName: 'SecurityToolsPOC'
+    TMJenkinJobName: '0day-Pwn.shiftleft-python-demo'
     CheckTM: 'true'
     CheckTMHigh: 'false'
     TMTokenURI: 'https://esteelauder.threatmodeler.net/token'
