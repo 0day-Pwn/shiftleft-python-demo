@@ -17,7 +17,7 @@ steps:
     CheckTM: 'true'
     CheckTMHigh: 'false'
     TMTokenURI: '***'
-    TMValidateURI: 'https://esteelauder.threatmodeler.net/api/azure/validate'
+    TMValidateURI: '***'
 - task: PowerShell@2
   displayName: Download ShiftLeft cli
   inputs:
